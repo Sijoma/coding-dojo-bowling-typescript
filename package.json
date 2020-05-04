@@ -1,0 +1,21 @@
+{
+  "name": "bowling-app",
+  "version": "1.0.0",
+  "description": "Bowling Code Kata",
+  "main": "app.ts",
+  "scripts": {
+    "start": "npx ts-node ./src/app.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.5.2",
+    "ts-jest": "^25.4.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "typescript": "^3.8.3"
+  }
+}
